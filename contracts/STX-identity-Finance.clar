@@ -61,7 +61,6 @@
     }
 )
 
-
 (define-map ProofRegistry
     { proof-hash: (buff 32) }
     {
@@ -143,7 +142,6 @@
                 expiry-height: (get expiry-height identity),
                 is-valid: true
             })
-
         (ok proof-hash)))
 
 
@@ -233,3 +231,4 @@
             (is-eq (get status identity) STATUS-ACTIVE)
             (< stacks-block-height (get expiry-height identity))
             (is-some (index-of (get verification-types identity) verification-type)))))
+        (ok proof-hash)))
