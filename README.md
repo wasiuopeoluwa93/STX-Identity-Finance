@@ -82,6 +82,5 @@ This protocol integrates reputation-based lending with decentralized identity ve
 - Introduce staking mechanisms to back under-collateralized loans.
 - Expand verifier roles to support more use cases such as reputation-based access control.
 
-## Commit Message
-"Implemented a reputation-based lending and identity verification protocol with dynamic credit scoring, loan processing, and governance functionalities in Clarity."
+
 
