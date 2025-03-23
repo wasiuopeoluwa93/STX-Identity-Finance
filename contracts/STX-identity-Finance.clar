@@ -61,7 +61,6 @@
     }
 )
 
-
 (define-map ProofRegistry
     { proof-hash: (buff 32) }
     {
